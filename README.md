@@ -12,7 +12,7 @@ You will need to have `Node.js` installed on your computer.
 
 ### Clone the repository
 
-git clone https://github.com/Naturalclar/battleship-node.git
+git clone https://github.com/Naturalclar/html5-flappy-bird-clone.git
 
 ### Building the app
 

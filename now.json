@@ -1,0 +1,10 @@
+{
+  "name":"html5-flappy-bird-clone",
+  "alias":"html5-flappy-bird-clone",
+  "type":"static",
+  "files": [
+    "index.html",
+    "build",
+    "assets"
+  ]
+}

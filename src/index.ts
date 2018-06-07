@@ -11,7 +11,6 @@ const config:GameConfig = {
   physics: {
     default: 'arcade',
     arcade: {
-      maxVelocity: 100,
       debug: 0,
       setBounds: false,
     }

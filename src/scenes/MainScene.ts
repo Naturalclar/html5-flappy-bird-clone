@@ -1,5 +1,7 @@
 const WIDTH = 320;
 const HEIGHT = 480;
+const GRAVITY = 500;
+const JUMP_VELOCITY = -200;
 
 class MainScene extends Phaser.Scene {
   player: Phaser.Physics.Arcade.Sprite;
@@ -28,7 +30,7 @@ class MainScene extends Phaser.Scene {
     this.add.image(WIDTH, HEIGHT, 'sky');
     
     // Create Player
-    this.player = this.physics.add.sprite(WIDTH/4, HEIGHT/2, 'bird').setVelocity(0,200);
+    this.player = this.physics.add.sprite(WIDTH/4, HEIGHT/2, 'bird').setGravityY(GRAVITY);
     
     // Initiate Keyboard Event
     this.cursors = this.input.keyboard.createCursorKeys();
@@ -73,7 +75,7 @@ class MainScene extends Phaser.Scene {
   }
 
   jump() {
-    this.player.setY(this.player.y-20);
+    this.player.setVelocityY(JUMP_VELOCITY);
   }
 
   addPipe (x: number, y: number) {

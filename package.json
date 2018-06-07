@@ -21,7 +21,7 @@
     "html-webpack-plugin": "^3.2.0",
     "now": "^11.2.1",
     "raw-loader": "^0.5.1",
-    "serve": "^8.1.0",
+    "serve": "^8.1.1",
     "ts-loader": "^4.3.1",
     "typescript": "^2.9.1",
     "webpack": "^4.11.1",

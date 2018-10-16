@@ -1,5 +1,7 @@
 # HTML5 Flappy Bird Clone
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Naturalclar/html5-flappy-bird-clone.svg)](https://greenkeeper.io/)
+
 A Flappy Bird Clone made with html5 and [Phaser3](https://phaser.io/phaser3).
 
 You can play the game [here](https://html5-flappy-bird-clone.now.sh/).
